@@ -1,0 +1,122 @@
+html,
+body {
+  min-width: 1122px;
+  min-height: 1750px;
+  margin: 0;
+  padding: 0;
+
+}
+
+body {
+  background: url("../img/barbershop-index.jpg") no-repeat 50% 3px;
+  background-size: 1122px auto;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.main-header {
+  margin-bottom: 60px;
+
+  outline: 1px solid lime; /* Параметры рамки */
+}
+
+.container {
+  width: 940px;
+  padding: 0 10px;
+  margin: 0 auto;
+
+  outline: 1px solid yellow; /* Параметры рамки */
+
+}
+
+.main-navigation {
+  width: 780px;
+  float: left;
+
+    outline: 1px solid green; /* Параметры рамки */
+
+}
+
+.user-block {
+  width: 140px;
+  float: right;
+
+    outline: 1px solid red; /* Параметры рамки */
+}
+
+.index-logo {
+  height: 204px;
+  width: 368px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 25px;
+
+  outline: 1px solid pink; /* Параметры рамки */
+}
+
+.features-item {
+  float: left;
+  width: 300px;
+  margin-right: 20px;
+
+  outline: 1px solid purple; /* Параметры рамки */
+}
+
+.features-item:last-child {
+  margin-right: 0px;
+}
+
+.index-content {
+  padding: 50px 80px;
+  margin-bottom: 35px;
+
+  outline: 1px solid orange; /* Параметры рамки */
+}
+
+.index-content-left {
+  float: left;
+  width: 380px;
+
+  outline: 1px solid DarkOrange; /* Параметры рамки */
+}
+
+.index-content-right {
+  float: right;
+  width: 300px;
+
+  outline: 1px solid coral; /* Параметры рамки */
+}
+
+.main-footer {
+  margin-top:: 65px;
+  padding-top: 60px;
+  padding-bottom: 40px;
+
+  outline: 1px solid blue; /* Параметры рамки */
+}
+
+.footer-contacts {
+  float: left;
+  width: 320px;
+  margin-right: 60px;
+
+  outline: 1px solid aqua; /* Параметры рамки */
+}
+
+.footer-social {
+  float: left;
+  width: 180px;
+
+  outline: 1px solid aquamarine; /* Параметры рамки */
+}
+
+.footer-copyright {
+  float: right;
+  width: 180px;
+
+  outline: 1px solid DodgerBlue; /* Параметры рамки */
+}
